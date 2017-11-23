@@ -1,7 +1,7 @@
 # Control RGB LED using MQTT with Raspberry Pi 3
 Control your RGB LEDs on a Raspberry Pi using MQTT Protocol from your Mobile Application
 
-# Project Overview
+## Project Overview
 
 This Project will help you remotely control the RGB LEDs using MQTT protocol with  Raspberry pi 3.
 
@@ -9,20 +9,20 @@ MQTT is a Client Server publish/subscribe messaging transport protocol. It is li
 
 Check more details on MQTT [here.](https://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt)
 
-# Flow chart of the Demo:
+## Flow chart of the Demo:
 
 ![led_mqtt 3](https://user-images.githubusercontent.com/29800208/33128344-1764569a-cfb2-11e7-9670-14cc931bb3a8.png)
 
-**Basic Steps:**
+## Basic Steps:
 
 1. Basic Installation setup of Raspberry Pi 3
 2. Connect the LEDs to the Raspberry Pi 3
 3. Configuring the MQTT Dashboard App on Android
 4. Programming the Raspberry Pi
 
-# Requirements
+## Requirements
 
-**Hardware**
+### Hardware
 
 1. Raspberry pi 3 (with Raspbian Jessie OS)
 2. Micro-USB cable for power
@@ -32,7 +32,7 @@ Check more details on MQTT [here.](https://www.hivemq.com/blog/mqtt-essentials-p
 6. Jumper wires
 7. HDMI cable/ LAN Cable to program
 
-**Software**
+### Software
 
 - Python
 
@@ -58,7 +58,7 @@ Or with ``virtualenv``:
 
  To obtain the full code, including examples and tests, you can clone the git repository:
 
-     git clone [https://github.com/eclipse/paho.mqtt.python](https://github.com/eclipse/paho.mqtt.python)
+     git clone https://github.com/eclipse/paho.mqtt.python
 
  Once you have the code, it can be installed from your repository as well:
 
