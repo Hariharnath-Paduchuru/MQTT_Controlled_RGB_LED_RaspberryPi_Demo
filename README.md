@@ -83,15 +83,19 @@ Or with ``virtualenv``:
 - LEDs are a very useful, cheap, and efficient way of producing light, but you do have to be careful how you use them. If they are connected directly to a voltage source (such as a GPIO output) that is greater than about 1.7 volts, they will draw a very large current. This can often be enough to either destroy the LED or whatever is providing the current—which is not good if your Raspberry Pi is providing the current.
 
 - They have a long leg and a slightly shorter leg. The **long leg goes to the plus side with Resistor in series** and the **shorter leg to the negative (or 0v) side/Ground**. If we&#39;ve cut the legs short, then another way is to look at the side of the LED glass – there will be a flat section. Think of the flat as a minus sign and connect that to the 0v side of the circuit.
+
+![Raspberry pi pinout](https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.png)
+
 - The resistor is a 330 Ohm connected in between long leg or plus side of LED and the respective GPIO Pins
   - Red LED is connected to the GPIO 21 of pi
   - Green LED is connected to GPIO 12 of pi
   - Blue LED is connected to GPIO 6 of pi
   - Ground can be connected to any Ground pins available on Pi(39,6,9,etc)
 
-![Raspberry pi pinout](https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.png)
 
+The Final Setup should look like this 
 
+![rgbled](https://user-images.githubusercontent.com/29800208/33162042-6d72cbfc-d04d-11e7-8bcf-882c14b86b80.jpg)
 
 ### Step 3:
  
@@ -150,5 +154,6 @@ Check if the topic mentioned here is same as you have subscribed, If not modify 
 ```sh
 sudo python RGBLEDControl_v2.py
 ```
+
 
 Now open the MQTT Dashboard app in the mobile and Click on the Buttons or write the appropriate text to send the message and control the LEDs
