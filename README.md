@@ -43,7 +43,7 @@ sudo apt-get install python3
 
 - Clone the Git repository
 ```sh
-git clone https://github.com/hariharnath/MQTT_Controlled_RGB_LED_RaspberryPi_Demo
+git clone https://github.com/Hariharnath-Paduchuru/MQTT_Controlled_RGB_LED_RaspberryPi_Demo
 ```
 
 The latest stable version is available in the Python Package Index (PyPi) and can be installed using
@@ -142,7 +142,7 @@ Open the console in Raspberry pi
 Clone the git Repo if not done earlier
 
 ```sh
-git clone https://github.com/hariharnath/MQTT_Controlled_RGB_LED_RaspberryPi_Demo
+git clone https://github.com/Hariharnath-Paduchuru/MQTT_Controlled_RGB_LED_RaspberryPi_Demo
 
 ls MQTT_Controlled_RGB_LED_RaspberryPi_Demo
 
